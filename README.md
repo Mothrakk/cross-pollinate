@@ -1,8 +1,10 @@
+# cross-pollinate
+
 Self-bot script to seek out people you share mutual servers with.
 
 Beware that self-bots are technically not allowed and you might get in trouble for using one.
 
-How to get your user token:
+**How to get your user token:**
 
 1. open discord client
 2. ctrl + shift + i
