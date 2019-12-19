@@ -8,6 +8,14 @@ Beware that self-bots are technically not allowed and you might get in trouble f
 
 Put your user token into `token.txt` and run `main.py`. The output will get exported to a new `mutuals.json` file.
 
+### Specifying arguments
+
+You can pass guilds as arguments into the script, seperated by semicolons. This filters the output, such that it will filter out mutuals that are not in every guild specified. For example, the following Powershell query will only return mutuals that are in both `Kenshi Community Discord` and `The Programmer's Hangout`:
+
+```python.exe .\main.py Kenshi Community Discord`;The Programmer`'s Hangout```
+
+(The backticks are there to escape Powershell formatting.)
+
 **How to get your user token:**
 
 1. open discord client
@@ -18,6 +26,6 @@ Put your user token into `token.txt` and run `main.py`. The output will get expo
 
 Example output:
 
-![a](https://i.imgur.com/P6WXGxq.png)
+![a](https://i.imgur.com/v6FsBIz.png)
 
 [discord.py](https://github.com/Rapptz/discord.py)
