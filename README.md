@@ -10,7 +10,7 @@ Put your user token into `token.txt` and run `main.py`. The output will get expo
 
 ### Specifying arguments
 
-You can pass guilds as arguments into the script, seperated by semicolons. This filters the output, such that it will filter out mutuals that are not in every guild specified. For example, the following Powershell query will only return mutuals that are in both `Kenshi Community Discord` and `The Programmer's Hangout`:
+You can pass guilds as arguments into the script, seperated by semicolons. This filters the output, such that it will filter out mutuals that are not in every guild specified. For example, the following Powershell query will only return mutuals that are in at least both `Kenshi Community Discord` and `The Programmer's Hangout`:
 
 ```python.exe .\main.py Kenshi Community Discord`;The Programmer`'s Hangout```
 
