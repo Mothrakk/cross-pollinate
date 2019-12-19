@@ -4,6 +4,10 @@ Self-bot script to seek out people you share mutual servers with.
 
 Beware that self-bots are technically not allowed and you might get in trouble for using one.
 
+## Usage
+
+Put your user token into `token.txt` and run `main.py`. The output will get exported to a new `mutuals.json` file.
+
 **How to get your user token:**
 
 1. open discord client
